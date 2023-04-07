@@ -25,7 +25,7 @@ public class Tool : MonoBehaviour
         // Hide old tool
         currentTool.SetActive(false);
 
-        currentTool = resourceDeposit.ResourceItem.Resource switch // пусть принемает ресурс как аргумент, а не deposit
+        currentTool = resourceDeposit.ResourceItem.Resource switch
         {
             Wood => axe,
             Stone => pickaxe,

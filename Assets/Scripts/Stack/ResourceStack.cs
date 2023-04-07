@@ -16,7 +16,7 @@ public class ResourceStack : MonoBehaviour, IResourceStack, IInteractable, IRese
     [SerializeField] private float addingDuration;
     [SerializeField] private float removingDuration;
 
-    [Header("Stack height and width and height")]
+    [Header("Stack height and width")]
     [SerializeField] private int stackHeight;
     [SerializeField] private int stackWidth;
 
