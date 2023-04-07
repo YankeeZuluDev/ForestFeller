@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8219490451289836025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8219490451289836006}
+  - component: {fileID: 8219490451289836007}
+  - component: {fileID: 7307275493011475701}
+  - component: {fileID: 8800369935107622809}
+  m_Layer: 0
+  m_Name: Level Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8219490451289836006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219490451289836025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8219490451289836007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219490451289836025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd7ea4a6ff5612488cc49e0e51ccabc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainPrefab: {fileID: 7123576496359871451, guid: 9a6dddea857fbab44baf08fed45f0022,
+    type: 3}
+  resourcePoolPrefab: {fileID: 6674498068794594915, guid: f867f47ad67e72945b2e653abb15f344,
+    type: 3}
+  UIManagerPrefab: {fileID: 6051170988290570204, guid: 20edaddd5086b044094f2e84882399f6,
+    type: 3}
+  audioManagerPrefab: {fileID: 5198615309843214209, guid: 9ac0163bb12ff57499f5bcab34e697f1,
+    type: 3}
+  playerPrefab: {fileID: 8004479299862649264, guid: cd3fbfdb14428194ca1113ceefdcb189,
+    type: 3}
+  followCameraPrefab: {fileID: 7750854874170096906, guid: 2489a945edfd9dc40a1088f3d6ee0e1c,
+    type: 3}
+  levelGoalCheckerPrefab: {fileID: 5910778326572848760, guid: 6abe9b9d2aae7bc4d8cd69ab6169191c,
+    type: 3}
+  levelDefinitionsList:
+  - {fileID: 11400000, guid: a641172d3c513894daf713b9cb54146e, type: 2}
+  - {fileID: 11400000, guid: 8760d8e058c070d468045c9936c41283, type: 2}
+  - {fileID: 11400000, guid: c0831b341c39dbc40857181f179a9f19, type: 2}
+  - {fileID: 11400000, guid: 3cb91daa80a5dff4ab791580ae21b5eb, type: 2}
+  - {fileID: 11400000, guid: 552407c81650fd3439c7ceb69426095d, type: 2}
+--- !u!114 &7307275493011475701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219490451289836025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683d198f1068c01419c43e06d5f3d80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: c12cb08f64cf0be44ba61ee5ab65ff08, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8219490451289836007}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: IncrementCurrentLevelID
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8219490451289836007}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: SaveCurrentLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8800369935107622809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219490451289836025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683d198f1068c01419c43e06d5f3d80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 11bb27d14b803de499b60a4e4d048672, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8219490451289836007}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadCurrentLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
