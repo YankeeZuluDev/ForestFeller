@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 99
+  controlID: 91
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -372,9 +372,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d2140000
       m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
+      m_ExpandedIDs: 3079ffffde79ffffea7afffff27afffff67affffac8efffffc8effff049affff089affff0c9affff109affff1aa9ffffc8a9ffffd4aaffffdcaaffffe0aaffff64b8ffff70b8ffff88c1ffff94c1ffff6ccbffff78cbffff00d4ffff0cd4ffff60e5ffff6ce5ffffd0f3ffffdcf3ffff32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -657,9 +657,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.7074456, y: 0.31951237, z: 12.182043}
+    m_Target: {x: -2.359893, y: -3.8895926, z: 11.4294195}
     speed: 2
-    m_Value: {x: 6.7074456, y: 0.31951237, z: 12.182043}
+    m_Value: {x: -2.359893, y: -3.8895926, z: 11.4294195}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -706,13 +706,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.30128857, y: -0.26044533, z: 0.08436817, w: -0.91310537}
+    m_Target: {x: -0.13027023, y: -0.05502624, z: 0.0059081917, w: -0.98967445}
     speed: 2
-    m_Value: {x: -0.30136606, y: -0.2605123, z: 0.084389865, w: -0.91334015}
+    m_Value: {x: -0.13030355, y: -0.055040315, z: 0.0059097027, w: -0.9899276}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 13.213287
     speed: 2
-    m_Value: 12.124355
+    m_Value: 13.213287
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -956,7 +956,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: tool
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -970,13 +970,13 @@ MonoBehaviour:
     m_Folders:
     - Assets
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: tool
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 64
-  m_LastProjectPath: C:\Projects\GitProjects\ForestFeller
+  m_LastProjectPath: C:\Projects\ForestFellerGit\ForestFeller
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ba620000d4620000b8620000d8620000e6620000b2620000e8620000225c000072610000a65a000006740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

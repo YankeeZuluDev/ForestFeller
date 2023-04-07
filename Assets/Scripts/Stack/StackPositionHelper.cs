@@ -73,4 +73,9 @@ public class StackPositionHelper
 
         return new Vector3(resourceX, resourceY, 0);
     }
+
+    public void ResetTopTransformLocalPosition()
+    {
+        topTransform.localPosition = initialTopTransformLocalPosition;
+    }
 }

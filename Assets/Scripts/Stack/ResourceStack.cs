@@ -132,9 +132,8 @@ public class ResourceStack : MonoBehaviour, IResourceStack, IInteractable, IRese
 
             // Release popped resource
             resourcePool.Release(poppedGameObject);
-
-            // Decrease top
-            stackPositionHelper.DecreaseTopPosition();
         }
+
+        stackPositionHelper.ResetTopTransformLocalPosition();
     }
 }
