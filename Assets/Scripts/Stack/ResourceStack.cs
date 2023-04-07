@@ -121,11 +121,17 @@ public class ResourceStack : MonoBehaviour, IResourceStack, IInteractable, IRese
         // Clear traversable stack, iterate backwards to allow collection modification while iterating
         for (int i = traversableStack.Count - 1; i >= 0; i--)
         {
-            // Pop the resource
+            // Pop the resource gameobject
             GameObject poppedGameObject = traversableStack.Pop().gameObject;
 
-            // Destroy popped resource
-            Destroy(poppedGameObject);
+            // Get popped resource
+            ScriptableResource poppedScriptableResource = poppedGameObject.GetComponent<StackableResource>().ScriptableResource;
+
+            // Get pool for popped resoruce
+            ObjectPool<GameObject> resourcePool = ResourcePools.Instance.GetCorrespondingPool(poppedScriptableResource);
+
+            // Release popped resource
+            resourcePool.Release(poppedGameObject);
 
             // Decrease top
             stackPositionHelper.DecreaseTopPosition();
