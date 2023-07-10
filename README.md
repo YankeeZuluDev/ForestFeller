@@ -3,9 +3,9 @@ A repository for "Forest Feller" game source code
 
 [:camera: **See Screenshots**](#screenshots)
 
-[:movie_camera: **See gameplay video**](https://www.youtube.com/watch?v=uu2AngDUh1s)
+[:movie_camera: **See gameplay video**](https://www.youtube.com/watch?v=EBuS0Xp_in8)
 
-[:video_game: **Play**](https://play.google.com/store/apps/details?id=com.YankeeZulu.RunNGun)
+[:video_game: **Play**](https://play.google.com/store/apps/details?id=com.Yankeezulu.ForestFeller)
 
 ## About the game
 Genre: Hyper-casual
