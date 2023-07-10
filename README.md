@@ -20,8 +20,8 @@ Accessibility: Due to the use of some licensed assets in this project, it is tem
 
 <div style="display:flex;">
   <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/6118a35f-9ad2-42e4-b560-680f06374ad2" alt="screenshot_1" width="270" height="480">
-  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/74fe78a6-68e1-486a-b0d2-8672a7ac4066" alt="screenshot_2" width="270" height="480">
   <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/915e1403-8b5b-415c-8d1b-f4408078ec91" alt="screenshot_3" width="270" height="480">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/74fe78a6-68e1-486a-b0d2-8672a7ac4066" alt="screenshot_2" width="270" height="480">
 </div>
 
 ## Best сode practices in this project
