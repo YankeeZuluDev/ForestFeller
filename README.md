@@ -20,14 +20,19 @@ Accessibility: due to the use of some copyrighted assets in this project (Adobe 
 
 <div style="display:flex;">
   <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/6118a35f-9ad2-42e4-b560-680f06374ad2" alt="screenshot_1" width="270" height="480">
-  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/915e1403-8b5b-415c-8d1b-f4408078ec91" alt="screenshot_3" width="270" height="480">
-  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/74fe78a6-68e1-486a-b0d2-8672a7ac4066" alt="screenshot_2" width="270" height="480">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/915e1403-8b5b-415c-8d1b-f4408078ec91" alt="screenshot_2" width="270" height="480">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/74fe78a6-68e1-486a-b0d2-8672a7ac4066" alt="screenshot_3" width="270" height="480">
 </div>
 
 ## Best сode practices in this project
 
 ### Composition over inheritance
 This project implements the Composition Over Inheritance principle to create the system that relies on horizontal relations between different game parts. Rather than relying on inheritance from a base or parent class, the project is using composition to achieve polymorphic behavior and code reuse. In this project, composition is achieved by extensive use of interfaces and carefully structured entity systems. Entities are created by composing various little reusable components, enabling flexible and modular design. For instance, the Factory entity comprises the [ResourceReceiver](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceProcessing/ResourceReceiver.cs), [Factory](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceProcessing/Factory.cs), [Storage](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/Storage/Storage.cs), and [ResourceProvider](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceProcessing/ResourceProvider.cs) components. Similarly, the Player entity is composed of the [InteractableDetector](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/Interaction/InteractableDetector.cs), [ResourceReceiver](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceProcessing/ResourceReceiver.cs), [ResourceStack](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/Stack/ResourceStack.cs), [Storage](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/Storage/Storage.cs), and [ResourceProvider](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceProcessing/ResourceProvider.cs) components. By adding or replacing these reusable components, we can achieve diverse and customizable behavior.
+
+<div style="display:flex;">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/c41c39cc-6ecf-42ba-b748-a8779a95d441" alt="screenshot_4">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/ab668773-719a-4279-8ff4-44c25826caa4" alt="screenshot_5">
+</div>
 
 ### DIP
 This project [implements](https://github.com/YankeeZuluDev/ForestFeller/tree/main/Assets/Scripts/Interfaces) Dependency Inversion Principle. Thanks to thanks to the extensive use of interfaces, high level modules do not depend upon low level modules. Both depend upon abstractions.
