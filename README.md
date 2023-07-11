@@ -26,14 +26,17 @@ Accessibility: due to the use of some copyrighted assets in this project (Adobe 
 
 ## Best сode practices in this project
 
-### Object pooling
-This game uses object pooling to efficiently manage and reuse gameobjects within the game. Object pooling minimizes the overhead of creating and destroying bullet objects dynamically, resulting in improved performance and reduced memory allocation. [Code]()
+### Composition over inheritance
+This project implements the Composition Over Inheritance principle to create the system that relies on horizontal relations between different game parts. Rather than relying on inheritance from a base or parent class, the project is using composition to achieve polymorphic behavior and code reuse. In this project, composition is achieved by extensive use of interfaces and carefully structured entity systems. Entities are created by composing various little reusable components, enabling flexible and modular design. For instance, the Factory entity comprises the [ResourceReceiver](), [Factory](), [Storage](), and [ResourceProvider]() components. Similarly, the Player entity is composed of the [InteractableDetector](), [ResourceReceiver](), [ResourceStack](), [Storage](), and [ResourceProvider]() components. By adding or replacing these reusable components, we can achieve diverse and customizable behavior.
 
 ### DIP
-This project fully [implements]() Dependency Inversion Principle. Thanks to thanks to the extensive use of interfaces, high level modules do not depend upon low level modules. Both depend upon abstractions.
+This project [implements]() Dependency Inversion Principle. Thanks to thanks to the extensive use of interfaces, high level modules do not depend upon low level modules. Both depend upon abstractions.
 
 ### ISP
-This project fully [implements]() Interface Segregation Principle. All interfaces are small and specific, keeping the code decoupled and thus easier to change and refactor.
+This project [implements]() Interface Segregation Principle. All interfaces are small and specific, keeping the code decoupled and thus easier to change and refactor.
+
+### Object pooling
+This game uses object pooling to efficiently manage and reuse gameobjects within the game. Object pooling minimizes the overhead of creating and destroying bullet objects dynamically, resulting in improved performance and reduced memory allocation. [Code]()
 
 ### Split responsibilities
 Class responsibilities in this project are well defined and separated. Each class is responsible for only one thing. [Code]()
