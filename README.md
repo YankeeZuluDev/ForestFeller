@@ -52,5 +52,10 @@ This game uses an event system to handle in-game events such as GameEndEvent or 
 ### Custom level constructor window
 This project has [custom editor window](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Editor/LevelConstructor.cs), that is used to construct and save levels. Upon dragging gameobjects to the scene, gameobjects with component derived from the Spawnable class will automatically have a corresponding data class generated and saved to level definition when the "Save Level Definition" button is pressed. This approach provides convinient and flexible way for level creation. Levels are stored as [LevelDefinition](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/Level/LevelDefinition.cs) ScriptableObjects. LevelDefinition class consists of 3 parts: the length of the level, the width of the level and an array of [data classes for spawnables](https://github.com/YankeeZuluDev/ForestFeller/blob/main/Assets/Scripts/ResourceData/SpawnableData.cs), that contain all the necessary information to instantiate spawnables at runtime.
 
+<div style="display:flex;">
+  <img src="https://github.com/YankeeZuluDev/ForestFeller/assets/129124150/e09f9f45-481b-4d12-af26-24525697ab23" alt="screenshot_6">
+</div>
+
+
 ### Prefab-based project architecture
 This project uses prefab-based design approach, utilizing the power of prefabs to create and organize all game parts. Prefab-based approach allows for reusability, efficiency, easier testing, better collaboration and significant time and effort savings when implementing new features to some game parts. Additionally it allows for more convenient game initialization and dependency resolving.
