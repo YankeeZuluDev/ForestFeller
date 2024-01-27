@@ -14,7 +14,7 @@ Mechanics: collecting, stacking, producing
 
 Unity version: 2021.3.18f1 (LTS)
 
-Accessibility: due to the use of some copyrighted assets in this project (Adobe Mixamo), it is temporarily cannot be freely explored in Unity
+Accessibility: due to the use of some copyrighted assets in this project (Adobe Mixamo), the project cannot be freely explored in Unity
 
 ## Screenshots
 
