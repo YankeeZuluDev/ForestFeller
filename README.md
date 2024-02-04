@@ -7,6 +7,8 @@ A repository for "Forest Feller" game source code
 
 [:video_game: **Play**](https://play.google.com/store/apps/details?id=com.Yankeezulu.ForestFeller)
 
+[:100: **Play**](#best-сode-practices-in-this-project)
+
 ## About the game
 Genre: hyper-casual, hybrid-casual
 
